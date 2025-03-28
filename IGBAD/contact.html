@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - IGBADI Foundation Uganda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>IGBADI Foundation</h1>
+            <p>Uganda</p>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html">About <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#history">History</a></li>
+                        <li><a href="about.html#mission">Mission</a></li>
+                        <li><a href="about.html#partners">Partners</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="programs.html">Programs <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="programs.html#childcare">Childcare</a></li>
+                        <li><a href="programs.html#education">Education</a></li>
+                        <li><a href="programs.html#empowerment">Empowerment</a></li>
+                        <li><a href="programs.html#environment">Environment</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Contact IGBADI Foundation Uganda</h1>
+            <p>Get in touch with us for partnerships, volunteering, or inquiries</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Our Contact Information</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Kabarole District</p>
+                            <p>Ruwenzori Region, Western Uganda</p>
+                            <p>Approximately 296km from Kampala</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+256 XXX XXX XXX (Office)</p>
+                            <p>+256 XXX XXX XXX (Programs)</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@igbadifoundation.org</p>
+                            <p>programs@igbadifoundation.org</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>Monday - Friday: 8:00am - 5:00pm</p>
+                            <p>Saturday: 9:00am - 1:00pm</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject*</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+
+                    <div id="formResponse" class="form-response hidden">
+                        <h3>Thank You for Contacting Us!</h3>
+                        <div id="responseContent"></div>
+                        <button id="newMessage" class="btn-secondary">Send Another Message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <!-- Embedded Google Map of Kabarole District -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.753686764789!2d30.25121441475394!3d0.6939999999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1771e8a3a1d13933%3A0x9e9e2a3b0b1b1b1b!2sKabarole%20District%2C%20Uganda!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="partnership-section">
+            <h2>Partnership Opportunities</h2>
+            <p>IGBADI Foundation welcomes partnerships with organizations, businesses, and individuals who share our vision for community empowerment in Kabarole District. Our current MOU with Kabarole District Local Government demonstrates our commitment to collaborative development.</p>
+            
+            <div class="partnership-cards">
+                <div class="partnership-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Corporate Partnerships</h3>
+                    <p>Collaborate with us through CSR initiatives, employee volunteering, or cause-related marketing.</p>
+                </div>
+                <div class="partnership-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Community Groups</h3>
+                    <p>Join hands with us to implement grassroots development initiatives in your community.</p>
+                </div>
+                <div class="partnership-card">
+                    <i class="fas fa-globe-africa"></i>
+                    <h3>International NGOs</h3>
+                    <p>Partner with us to extend your programs to Kabarole District through our local expertise.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About IGBADI</h3>
+                <p>Empowering Kabarole communities through childcare, education, and economic development initiatives since 2021.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Our Programs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        
+<div class="social-share">
+    <span>Share our mission:</span>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=YOURWEBSITEURL" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com/intent/tweet?url=YOURWEBSITEURL&text=Check%20out%20IGBADI%20Foundation%20Uganda" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=YOURWEBSITEURL" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="whatsapp://send?text=Check%20out%20IGBADI%20Foundation%20Uganda%20YOURWEBSITEURL" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+</div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Kabarole District, Ruwenzori Region, Uganda</p>
+                <p><i class="fas fa-phone"></i> +256 XXX XXX XXX</p>
+                <p><i class="fas fa-envelope"></i> info@igbadifoundation.org</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> IGBADI Foundation Uganda. All Rights Reserved.</p>
+           
+        </div>
+        
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
